@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Ping Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Advanced Ping Pong</h1>
+    <div id="game-container">
+        <canvas id="pongCanvas" width="900" height="500"></canvas>
+        <div id="scoreboard">
+            <span id="playerScore">0</span> : <span id="aiScore">0</span>
+        </div>
+        <div id="gameMessage"></div>
+        <button id="restartBtn" style="display:none;">Restart</button>
+    </div>
+    <audio id="hitSound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_115b6cfb54.mp3" preload="auto"></audio>
+    <audio id="scoreSound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_10c4e8c5b2.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
